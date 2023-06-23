@@ -1,0 +1,6 @@
+framework module Pods_TestValidator {
+  umbrella header "Pods-TestValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

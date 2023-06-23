@@ -1,0 +1,6 @@
+framework module ValidatorSdk {
+  umbrella header "ValidatorSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
