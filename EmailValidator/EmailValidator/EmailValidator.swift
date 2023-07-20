@@ -14,4 +14,7 @@ public class EmailValidator {
         return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: email)
     }
  //gvg
+    
+    
+    
 }
