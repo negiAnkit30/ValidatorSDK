@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//creating a conflict 
 public class EmailValidator {
     //dedkrlfm
    public static func validateEmail(email:String) -> Bool {
