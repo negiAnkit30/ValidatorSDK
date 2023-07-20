@@ -2,15 +2,15 @@ PODS:
   - ValidatorSdk (1.0.0)
 
 DEPENDENCIES:
-  - ValidatorSdk (from `../EmailValidator`)
+  - ValidatorSdk
 
-EXTERNAL SOURCES:
-  ValidatorSdk:
-    :path: "../EmailValidator"
+SPEC REPOS:
+  trunk:
+    - ValidatorSdk
 
 SPEC CHECKSUMS:
   ValidatorSdk: 1ef380bef24abff015a1a9e24398b877503e3810
 
-PODFILE CHECKSUM: a70eed585d604eaf01269f6b968bbffa6911a64c
+PODFILE CHECKSUM: 307f4edd9221564ac2e1c3b01dba3bbdc1eceb95
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1

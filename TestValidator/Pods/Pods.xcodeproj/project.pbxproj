@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		0DD8175C48D3A79566D708FED867F51F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1595B99518B5749DDF77C5D4EF610C42 /* Pods-TestValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7677006C22B448DCD8B4FCC298FEDC /* Pods-TestValidator-dummy.m */; };
-		3282E5DACBF88DC773EAF46D13067ADF /* ValidatorSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A232BF14153E475718D752057417FE /* ValidatorSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793EBD9BD6DCC5693551787F0F8D4684 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5761910C6326C8DC7BE89ABCC2A8A4 /* EmailValidator.swift */; };
+		3282E5DACBF88DC773EAF46D13067ADF /* ValidatorSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE4833D1D80C46155F6C29F4890DB38 /* ValidatorSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85984E73B1B6A9940AE71C007083A4F7 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE182DC4DD0B15699352EA997B6C9A1 /* EmailValidator.swift */; };
 		BD0BB3A2DE26F3F01E50A27A311D22D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C481B441D1F32C433C05A87136C37FD4 /* Pods-TestValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0C9355F06599195B7DDDB724FF3215 /* Pods-TestValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D053BF0D28E71FF7CF50A3CD2C99A090 /* ValidatorSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6D8E8130CEACC74895C91802CAC690 /* ValidatorSdk-dummy.m */; };
+		D053BF0D28E71FF7CF50A3CD2C99A090 /* ValidatorSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC144452B84F61287B67ED9F89FF4C49 /* ValidatorSdk-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5EBE71A50E92E525369FB7D53A772BD8 /* PBXContainerItemProxy */ = {
+		00BACBABCB6DE2AD53F4FDB31D8C0DCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,15 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		078D5E7F79142ED0E5386F6ED6A30E55 /* ValidatorSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidatorSdk.release.xcconfig; sourceTree = "<group>"; };
+		0AE4833D1D80C46155F6C29F4890DB38 /* ValidatorSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidatorSdk-umbrella.h"; sourceTree = "<group>"; };
 		0C0C9355F06599195B7DDDB724FF3215 /* Pods-TestValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestValidator-umbrella.h"; sourceTree = "<group>"; };
 		0F7677006C22B448DCD8B4FCC298FEDC /* Pods-TestValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestValidator-dummy.m"; sourceTree = "<group>"; };
-		13CA9DC5228375EF8DB5A8922F23CD71 /* ValidatorSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ValidatorSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		48B4727A02974705E995C2CE397D7CC5 /* ValidatorSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValidatorSdk-Info.plist"; sourceTree = "<group>"; };
-		54A232BF14153E475718D752057417FE /* ValidatorSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidatorSdk-umbrella.h"; sourceTree = "<group>"; };
+		55E8843D4A760F0E82BC8E972247D81E /* ValidatorSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidatorSdk.debug.xcconfig; sourceTree = "<group>"; };
+		5935F8D7D33D0EAF2C4DA1E6A28D5D2E /* ValidatorSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValidatorSdk-Info.plist"; sourceTree = "<group>"; };
 		5D64F073E2869B6616509F44D572E851 /* Pods-TestValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestValidator.release.xcconfig"; sourceTree = "<group>"; };
-		67DE19DD83E35B23464C123708256769 /* ValidatorSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidatorSdk-prefix.pch"; sourceTree = "<group>"; };
-		71F9C6CFD7B2F7AF8A15C2228B1A7D98 /* ValidatorSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidatorSdk.debug.xcconfig; sourceTree = "<group>"; };
+		6C1384F4E5F8FC7D05AAA4C8AFA3443F /* ValidatorSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValidatorSdk.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D0C1F36C257F437EFABBB49A377D10C /* Pods-TestValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestValidator.debug.xcconfig"; sourceTree = "<group>"; };
 		803089949A2413F433018896BBE21152 /* Pods-TestValidator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestValidator"; path = Pods_TestValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +41,13 @@
 		8D9B94D7A2A4C159D76949754DA2E21B /* Pods-TestValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestValidator.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0C7EAA12788AF4D4E451B6EE0CA9A8E /* Pods-TestValidator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestValidator-frameworks.sh"; sourceTree = "<group>"; };
-		B4630B2C7D98FBC5B84B4EE2DCBB1EC5 /* ValidatorSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValidatorSdk.modulemap; sourceTree = "<group>"; };
+		BC144452B84F61287B67ED9F89FF4C49 /* ValidatorSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidatorSdk-dummy.m"; sourceTree = "<group>"; };
 		C12BB0FA639D3AEB2D5E17F71123ACB0 /* ValidatorSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValidatorSdk; path = ValidatorSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7213062E8401CB869A468E17A4C2862 /* ValidatorSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidatorSdk-prefix.pch"; sourceTree = "<group>"; };
+		D0729F94EA8138836535816D1C29E33A /* ValidatorSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidatorSdk.release.xcconfig; sourceTree = "<group>"; };
 		D46BD578F8B05CD3064C5966250C152F /* Pods-TestValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestValidator-Info.plist"; sourceTree = "<group>"; };
-		DD6D8E8130CEACC74895C91802CAC690 /* ValidatorSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidatorSdk-dummy.m"; sourceTree = "<group>"; };
+		DBE182DC4DD0B15699352EA997B6C9A1 /* EmailValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailValidator.swift; path = EmailValidator/EmailValidator/EmailValidator.swift; sourceTree = "<group>"; };
 		EBEA9FFBFD831DB7F1C70FD826389EDA /* Pods-TestValidator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestValidator-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE5761910C6326C8DC7BE89ABCC2A8A4 /* EmailValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailValidator.swift; path = EmailValidator/EmailValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		235441DE4A713794A0F6209F97689E74 /* Support Files */ = {
+		240DFE89551B28EA1FA550C2071AA410 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B4630B2C7D98FBC5B84B4EE2DCBB1EC5 /* ValidatorSdk.modulemap */,
-				DD6D8E8130CEACC74895C91802CAC690 /* ValidatorSdk-dummy.m */,
-				48B4727A02974705E995C2CE397D7CC5 /* ValidatorSdk-Info.plist */,
-				67DE19DD83E35B23464C123708256769 /* ValidatorSdk-prefix.pch */,
-				54A232BF14153E475718D752057417FE /* ValidatorSdk-umbrella.h */,
-				71F9C6CFD7B2F7AF8A15C2228B1A7D98 /* ValidatorSdk.debug.xcconfig */,
-				078D5E7F79142ED0E5386F6ED6A30E55 /* ValidatorSdk.release.xcconfig */,
+				6C1384F4E5F8FC7D05AAA4C8AFA3443F /* ValidatorSdk.modulemap */,
+				BC144452B84F61287B67ED9F89FF4C49 /* ValidatorSdk-dummy.m */,
+				5935F8D7D33D0EAF2C4DA1E6A28D5D2E /* ValidatorSdk-Info.plist */,
+				C7213062E8401CB869A468E17A4C2862 /* ValidatorSdk-prefix.pch */,
+				0AE4833D1D80C46155F6C29F4890DB38 /* ValidatorSdk-umbrella.h */,
+				55E8843D4A760F0E82BC8E972247D81E /* ValidatorSdk.debug.xcconfig */,
+				D0729F94EA8138836535816D1C29E33A /* ValidatorSdk.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../TestValidator/Pods/Target Support Files/ValidatorSdk";
+			path = "../Target Support Files/ValidatorSdk";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -102,33 +101,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8F37F5033E5305B643B5CF0AF12F8275 /* ValidatorSdk */ = {
-			isa = PBXGroup;
-			children = (
-				FE5761910C6326C8DC7BE89ABCC2A8A4 /* EmailValidator.swift */,
-				97134948D4B2902B51E7F2145CC3B290 /* Pod */,
-				235441DE4A713794A0F6209F97689E74 /* Support Files */,
-			);
-			name = ValidatorSdk;
-			path = ../../EmailValidator;
-			sourceTree = "<group>";
-		};
-		97134948D4B2902B51E7F2145CC3B290 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				13CA9DC5228375EF8DB5A8922F23CD71 /* ValidatorSdk.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B08CE3CF7817A8E75B0C7AD9DF7B44A8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8F37F5033E5305B643B5CF0AF12F8275 /* ValidatorSdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BDF5B701A368439BB67F095814C98793 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,8 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B08CE3CF7817A8E75B0C7AD9DF7B44A8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E649F3EB17B8D3C4BD5B69383C27CB3F /* Pods */,
 				BDF5B701A368439BB67F095814C98793 /* Products */,
 				8AAD17EB48D87CD4D197679B47AE504D /* Targets Support Files */,
 			);
@@ -155,6 +127,24 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E649F3EB17B8D3C4BD5B69383C27CB3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF8C5D1400D0F280A60F5BC82F2333A7 /* ValidatorSdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF8C5D1400D0F280A60F5BC82F2333A7 /* ValidatorSdk */ = {
+			isa = PBXGroup;
+			children = (
+				DBE182DC4DD0B15699352EA997B6C9A1 /* EmailValidator.swift */,
+				240DFE89551B28EA1FA550C2071AA410 /* Support Files */,
+			);
+			name = ValidatorSdk;
+			path = ValidatorSdk;
 			sourceTree = "<group>";
 		};
 		F4E2B85722CB5C6BA6DB3992EDB7E541 /* Pods-TestValidator */ = {
@@ -226,7 +216,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				721A2022398AD78730DA63920E5C52DB /* PBXTargetDependency */,
+				1373F12F5DDA6DB526775E0EEBEA4D36 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestValidator";
 			productName = Pods_TestValidator;
@@ -283,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793EBD9BD6DCC5693551787F0F8D4684 /* EmailValidator.swift in Sources */,
+				85984E73B1B6A9940AE71C007083A4F7 /* EmailValidator.swift in Sources */,
 				D053BF0D28E71FF7CF50A3CD2C99A090 /* ValidatorSdk-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,18 +289,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		721A2022398AD78730DA63920E5C52DB /* PBXTargetDependency */ = {
+		1373F12F5DDA6DB526775E0EEBEA4D36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ValidatorSdk;
 			target = 5C895F69A93D432AB130E0725C46FFC6 /* ValidatorSdk */;
-			targetProxy = 5EBE71A50E92E525369FB7D53A772BD8 /* PBXContainerItemProxy */;
+			targetProxy = 00BACBABCB6DE2AD53F4FDB31D8C0DCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2C84BBF6B6B6A4EBA4DF29D7911C7605 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 078D5E7F79142ED0E5386F6ED6A30E55 /* ValidatorSdk.release.xcconfig */;
+			baseConfigurationReference = D0729F94EA8138836535816D1C29E33A /* ValidatorSdk.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -346,7 +336,7 @@
 		};
 		3AEC19297195990E4C4B66D9798C65CA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71F9C6CFD7B2F7AF8A15C2228B1A7D98 /* ValidatorSdk.debug.xcconfig */;
+			baseConfigurationReference = 55E8843D4A760F0E82BC8E972247D81E /* ValidatorSdk.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
